@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./Imagenes/Logo.png">
+    <title>Encriptador de Texto</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <a href="#">
+            <img src="./Imagenes/Logo.png" alt="Logo Alura" class="logo">
+        </a>
+    </header>
+    <main>
+        <section class="encriptador">
+            <textarea  id="encriptar"   class="encriptar" placeholder="Ingrese el texto aquí"></textarea>
+            <div class="encriptador-aviso">
+                <img src="Imagenes/alert.png" alt="Imagen Aviso" class="img-aviso">
+                <p class="texto-aviso">Solo letras minúsculas y sin acentos</p>
+            </div>
+            <div class="encriptador-contenedor">
+                <button id="botonencriptar" type="submit" class="btn-encriptar">Encriptar</button>
+                <button id="botonesdesencriptar"type="submit" class="btn-desencriptar">Desencriptar</button>
+            </div>
+        </section>
+        <section class="tarjeta">
+            <div class="tarjeta-contenedor">
+                <img src="./Imagenes/Muñeco.png" alt="Muñeco" class="img-muñeco">
+                <p class="texto-uno">Ningún mensaje fue encontrado</p>
+                <p class="texto-dos">Ingresa el texto que desees encriptar o desencriptar.</p>
+            </div>
+            <textarea type="mensaje" class="evaluar" readonly></textarea>
+            <button type="submit" class="btn-copiar" style="display: none;">Copiar</button>
+        </section>
+    </main>
+    <footer>
+       
+        <a href="https://www.linkedin.com/in/alejandraquiroztoribio/" target="_blank">
+            <img src="./Imagenes/logo-linkedin.svg" alt="Logo linkedin" class="linked"></a>
+            <a href="https://github.com/Aleeste"  target="_blank">
+                <img src="./Imagenes/logo-github.svg" alt="Logo github" class="github"></a>
+                <p class="copyright">&copy; copyright 2024 - Encriptador de Texto desarrollado por Alejandra Quiroz</p>
+
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
